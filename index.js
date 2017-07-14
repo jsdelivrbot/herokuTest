@@ -36,7 +36,6 @@ app.get('/db', function (request, response) {
 				response.render('pages/db', {results: result.rows} );
 			}
 		});
-	});
 })
 
 app.listen(app.get('port'), function() {
