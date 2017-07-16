@@ -1,6 +1,20 @@
-/node_modules
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# cordova files
 /cordovaWrap/hooks
 /cordovaWrap/platforms/*/
 /cordovaWrap/plugins/*/
 /cordovaWrap/www
+
 /client/
