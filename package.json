@@ -12,8 +12,8 @@
     
     "cordovaBuild" : "(cd cordovaWrap/ && ../node_modules/cordova/bin/cordova build android)",
     "cordovaRun" : "(cd cordovaWrap/ && ../node_modules/cordova/bin/cordova run android)",
-    "completeBuild": "npm test && npm run gulpBuild && npm run cordovaBuild",
-    "buildAndRun": "npm test && npm run gulpBuild && npm run cordovaRun",
+    "fullBuild": "npm test && npm run gulpBuild && npm run cordovaBuild",
+    "fullRun": "npm test && npm run gulpBuild && npm run cordovaRun",
     
     "test": "mocha tests/*/*.js",
     "clientTest": "mocha tests/client/*.js",

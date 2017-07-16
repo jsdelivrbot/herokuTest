@@ -3,4 +3,5 @@
 /src
 # don't deploy the cordova files. These are only needed for local builds
 /cordovaWrap/*
+
 # node_modules are ignored with gitignore
