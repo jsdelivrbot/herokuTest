@@ -9,9 +9,11 @@ before_install:
 install:
 # Specify what and how to install
 - echo "Install stage"
-- curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
-- sudo apt-get install -y nodejs
-- sudo npm i
+- git clone https://github.com/tj/n.git
+- cd n
+- make install
+- n stable
+- sudo npm install
 before_script:
 # Commands to excecute before running tests
 - echo "Before script stage"
