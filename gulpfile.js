@@ -17,10 +17,10 @@ gulp.task('build', ()=>{
 });
 
 gulp.task('browserify', ()=>{
-	var b = browserify({entries: "./src/main.js", debug: true});
-
-	return b.bundle()
-	.pipe(source('app.js'))
+	return browserify({entries: "./src/main.js", debug: true})
+	.transform("babelify", { presets: ["es2015"] })
+	.bundle()
+	.pipe(source('main.js'))
 	.pipe(buffer())
 	.pipe(sourcemaps.init({loadMaps: true}))
 	// Add transformation tasks here
