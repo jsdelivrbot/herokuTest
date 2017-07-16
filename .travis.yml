@@ -11,7 +11,7 @@ install:
 - echo "Install stage"
 - git clone https://github.com/tj/n.git
 - cd n
-- make install
+- sudo make install
 - n stable
 - sudo npm install
 before_script:
