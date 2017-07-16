@@ -1,5 +1,6 @@
-node_modules
-cordovaWrap/hooks
-cordovaWrap/platforms/*/
-cordovaWrap/plugins/*/
-cordovaWrap/www
+/node_modules
+/cordovaWrap/hooks
+/cordovaWrap/platforms/*/
+/cordovaWrap/plugins/*/
+/cordovaWrap/www
+/client/
