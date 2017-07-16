@@ -6,7 +6,9 @@ let port = process.env.PORT || 5000;
 let appRoot = path.join(__dirname, "../");
 
 app.use(express.static(appRoot + '/client'));
-
+app.get("/test", function(request, response) {
+	response.send("it works!");
+})
 app.listen(port, function() {
   console.log('Node app is running on port', port);
 });

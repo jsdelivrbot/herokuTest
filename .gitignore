@@ -1,5 +1,5 @@
 node_modules
 cordovaWrap/hooks
-cordovaWrap/platforms
-cordovaWrap/plugins
+cordovaWrap/platforms/*/
+cordovaWrap/plugins/*/
 cordovaWrap/www
