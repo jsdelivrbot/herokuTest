@@ -12,7 +12,7 @@ install:
 - git clone https://github.com/tj/n.git
 - cd n
 - sudo make install
-- n stable
+- sudo n stable
 - sudo npm install
 before_script:
 # Commands to excecute before running tests
