@@ -21,6 +21,7 @@
   "author": "Bastien Girschig <bastien.girschig@gmail.com> (http://www.bastiengirschig.fr)",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.15.3"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
     "cordova": "^7.0.1",
-    "cors": "^2.8.4",
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
