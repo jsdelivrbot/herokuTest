@@ -20,7 +20,7 @@ before_script:
 script:
 # Run tests
 - echo "Running tests"
-- npm test
+- npm test -b
 # - echo "Starting build"
 # - npm run build
 after_success:
