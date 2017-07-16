@@ -4,3 +4,4 @@
 /cordovaWrap/plugins/*/
 /cordovaWrap/www
 /client/
+npm-debug.log
