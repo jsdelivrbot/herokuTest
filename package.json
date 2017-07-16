@@ -16,6 +16,7 @@
     "clientTest": "mocha tests/client/*.js",
     "serverTest": "mocha tests/server/*.js",
 
+    "deployServer": "serverTest && git push heroku master"
   },
   "author": "Bastien Girschig <bastien.girschig@gmail.com> (http://www.bastiengirschig.fr)",
   "license": "MIT",

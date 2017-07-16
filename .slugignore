@@ -1,0 +1,6 @@
+# frontend files will be served from the phone's filesystem. No need for that folder on the server.
+/client
+/src
+# don't deploy the cordova files. These are only needed for local builds
+/cordovaWrap/*
+# node_modules are ignored with gitignore
