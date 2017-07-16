@@ -18,3 +18,4 @@ docker-compose.yml
 /cordovaWrap/www
 
 /client/
+npm-debug.log
