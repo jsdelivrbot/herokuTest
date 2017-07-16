@@ -1,5 +1,6 @@
 const assert = require('assert');
 const utils = require("../server/utils");
+const clientMain = require("../src/main");
 
 describe('Array', function() {
   describe('#indexOf()', function() {
@@ -26,5 +27,12 @@ describe('Utils', function() {
     assert.equal(utils.makeUrl("www.google.com", {q:"test", time:null, bleb:3}), "www.google.com?q=test&bleb=3");
     assert.equal(utils.makeUrl("", {q:"test", time:"3"}), "?q=test&time=3");
     assert.equal(utils.makeUrl("www.google.com"), "www.google.com");
+  });
+});
+
+
+describe('clientMain', function() {
+  it('getGreeting', function () {
+    assert.equal(clientMain.getGreeting(), "hello");
   });
 });
