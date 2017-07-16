@@ -16,7 +16,8 @@
     "test": "mocha tests/*/*.js",
     "clientTest": "mocha tests/client/*.js",
     "serverTest": "mocha tests/server/*.js",
-    "deployServer": "npm run serverTest && git push heroku master"
+    "deployServer": "npm run serverTest && git push heroku master",
+    "devEnv": "gulp && gulp watch& heroku local"
   },
   "author": "Bastien Girschig <bastien.girschig@gmail.com> (http://www.bastiengirschig.fr)",
   "license": "MIT",
@@ -29,12 +30,18 @@
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
     "cordova": "^7.0.1",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-sourcemaps": "^2.6.0",
+    "gulp-tap": "^1.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "minimatch": "^3.0.4",
     "mocha": "^3.4.2",
     "node-fetch": "^1.7.1",
+    "node-notifier": "^5.1.2",
     "uniq": "^1.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
